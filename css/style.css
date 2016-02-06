@@ -1,0 +1,24 @@
+#container {margin: 0 auto; width: 950px;}
+
+#header {}
+
+#navigation {float: left; width: 950px; height:40px; background: #0066ff;}
+#navigation ul {list-style: none; margin: 0; padding: 0; background: #0066ff;}
+#navigation ul li {display: inline;}
+#navigation ul li a {color: #000000; padding: 20px; font-weight:bold; text-decoration:none; line-height:40px;}
+#navigation ul li a:hover {color: #ffffff;}
+#clock {line-height:40px;}
+
+#sidebar {float: left; width: 200px; padding: 10px; background: #f0e184; min-height: 450px; display: inline;}
+#sidebar ul {list-style: none; margin-top: 10px; padding: 0px;}
+
+#content{float: right; width: 700px; padding: 10px; min-height: 450px; background: #e4e4e4; text-align:justify}
+
+#footer{clear: both; background: #47401e; margin-top: 10px; padding: 10px;}
+
+a {text-decoration:none;}
+fieldset {margin: 0px; padding: 0px; padding-left: 10px;}
+
+.manga-cover {float: left; padding: 0 20px 20px 0; text-align: center;}
+.image-wiki {padding: 10px;}
+video {width: 480px; height: 360px;}
